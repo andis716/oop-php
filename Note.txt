@@ -1,0 +1,70 @@
+                     * OBJECT ORIENTED PROGRAMMING *
+# Menyusun semua kode Program dan struktur data sebagai object 
+# Object adalah unit dari Program 
+# Object menyimpan data dan prilaku
+# Object bia saling berinteraksi
+
+# Kelebihan Object Orianted Programing / OOP 
+   - Represenstasi dunia nyata 
+   - Enkapslasi & Abstraksi data 
+   - Reusability 
+   - skalabilitas & Ekstentibilitas
+   - Kemudahan pengelolaan
+   - Kolaborasi 
+   - Digunakan Oleh Framwork 
+
+* Class 
+   - Blueprint / Templete untuk membuat instance dari object 
+   - Class Mendefinisikan object Banyak object dapat digunakan oleh satu class 
+   - Object di buat dengan menggunakan keyword new 
+* Object 
+   - Instance yang di definisikan oleh class 
+   - Banyak object yang dapat di buat menggunakan satu class
+   - Object di buat dengan menggunakan keyword new 
+* Property 
+   - Mempresentasikan data / keadaan dari sebuah object 
+   - Variable yang ada di dalam object ( member Variable )
+   - Sama sperti variable di dalam PHP, di tambah dengan Visibility di depannya
+* Method 
+   - Mempresentasikan prilaku dari sebuah object 
+   - Function yang ada di dalam object 
+   - Sama sperti function di dalam PHP, di tambah dengan visibility di depannya
+* Constructor 
+   - Adalah sebuah magic method yang dimiliki PHP yang akan secara otomatis di jalankan
+* Inheritance ( Pewarisan / Penurunan ) 
+   - menciptakan hierarki antar class ( Parent & Child )
+   - Child class, mewarisi semua property dan method dari parentnya ( yang visible )
+   - Child class memperluas ( extends ) fungsionalitas dari parentnya 
+* Visibility 
+   - Konsep yang digunakan untuk mengatur akses dari property dan method pada sebuah object 
+   - Ada 3 keyword vsibility :
+      + public : dapat digunakan dimana saja bahkan diluar class 
+      + protected : Hanya dapat digunakan di dalam sebuah class beserta turunannya
+      + private : Hanya dapat digunakan dalam sebuah class tertentu saja
+* Keysord Static 
+   - static adalah keyword yang biasa digunakan untuk membuat sebuah property di dalam class 
+   - untuk melakukan instansiasi property menjadi object baru kita cukup memanggil 
+     nama class disertai tanda (::)
+   - keyword stattic digunakan ketika member yang terkait dengan class, bukan dengan object 
+   - Nilai static akan slalu tetap meskipun object di instatnsiasi berulang kali 
+   - membuat code menjadi prosedural 
+   - biasanya digunakan untuk membuat fungsi bantuan atau helper 
+   - Digunakan di class class utility pada framework 
+* Constan 
+   - sebuah idintifier untuk menyimpan nilai 
+   - penulisan constan dengan menggunakan keyword // define()   atau // const
+   * Perbedaan Constan dengan Variable 
+      - Variable memiliki nilai yang dapat berubah 
+      - constan memiliki nilai tetap 
+* Abstract Class 
+   - Sebuah class yang tidak dapat di instansiasi 
+   - Akan mendefinisakan interface untuk class lain yang menjadi turunannya 
+   - Berperan untuk 'kerangka dasar' untuk class turunannya 
+   - memiliki minimal 1 method Abstract
+   - digunakan dalam pewarisan / inheritence untuk memaksakan implementasi method abstrak 
+     yang sama untuk semua class turunannya  
+* Interface 
+   - Class abstrak yang sama sekali tidak memiliki implementasi
+   - Murni merupakan thempelete untuk class turunannya saja 
+   - Tidak boleh memiliki property, hanya deklarasi method 
+   
